@@ -18,7 +18,7 @@ public class HomeController {
     /*@Autowired*/
     HomeService service;
 
-    /*Constructor bas Injection*/
+    /*Constructor base Injection*/
     @Autowired
     public HomeController(HomeService service) {
         this.service = service;
