@@ -11,6 +11,7 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix = "myApp")
 public class AppConfig {
 
+    /*All value is mapping with application.yml file*/
     private String comming;
     private String car;
     private String salary;

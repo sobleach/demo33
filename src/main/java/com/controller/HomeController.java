@@ -30,6 +30,7 @@ public class HomeController {
         this.service = service;
     }*/
 
+    /*this value is reference from application.properties file*/
     @Value("${app.comming}")
     private String comming;
 
